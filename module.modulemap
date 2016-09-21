@@ -1,0 +1,5 @@
+module CNanovg [system] {
+  header "./nanovg_swift.h"
+  link "./nanovg-swift/build/libnanovg.a"
+  export *
+}
